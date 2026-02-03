@@ -16,6 +16,8 @@ RAG-AI-Assistant/
 └── vectorstore/       # FAISS vector database
 ```
 
+<img width="1211" height="924" alt="image" src="https://github.com/user-attachments/assets/194b39f0-d39a-4a62-9450-7abae20811e6" />
+
 ## Setup Instructions
 
 ### 1. Install Dependencies
@@ -30,6 +32,8 @@ GOOGLE_API_KEY=your_actual_google_api_key_here
 ```
 
 Get your API key from: https://ai.google.dev/
+
+<img width="2800" height="1400" alt="image" src="https://github.com/user-attachments/assets/41b5a97f-f17e-4d22-90c9-2198efa15ce8" />
 
 ### 3. Ingest Documents
 ```bash
@@ -66,6 +70,9 @@ If `GOOGLE_API_KEY` is not set or invalid, the system runs in demo mode:
 - ✅ Document ingestion works
 - ✅ Retrieval works
 - ❌ LLM responses are limited (returns retrieved context only)
+
+
+<img width="840" height="420" alt="image" src="https://github.com/user-attachments/assets/2be1d63f-2265-4a11-94b6-fcc69685289d" />
 
 ## Technologies Used
 
