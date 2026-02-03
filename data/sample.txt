@@ -1,0 +1,11 @@
+This is a sample document for RAG testing.
+
+Our RAG (Retrieval Augmented Generation) system works by:
+1. Loading documents from PDF files
+2. Splitting them into smaller chunks
+3. Creating embeddings using Google Generative AI
+4. Storing embeddings in FAISS vector database
+5. Using a retriever to find relevant chunks based on queries
+6. Passing retrieved context to Claude for answer generation
+
+The system is designed to answer questions based on the documents provided.
